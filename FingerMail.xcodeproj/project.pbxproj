@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		276E17A15C8990FA49254B72 /* Pods_FingerMail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69536312959AC6C1F859BC0 /* Pods_FingerMail.framework */; };
+		8474FE9921851FA2001FC196 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8474FE9821851FA2001FC196 /* AppDelegate.swift */; };
+		8474FE9E21851FA2001FC196 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8474FE9C21851FA2001FC196 /* Main.storyboard */; };
+		8474FEA121851FA2001FC196 /* FingerMail.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8474FE9F21851FA2001FC196 /* FingerMail.xcdatamodeld */; };
+		8474FEA321851FA4001FC196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8474FEA221851FA4001FC196 /* Assets.xcassets */; };
+		8474FEA621851FA4001FC196 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8474FEA421851FA4001FC196 /* LaunchScreen.storyboard */; };
+		8474FEAE21851FC3001FC196 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8474FEAD21851FC2001FC196 /* WelcomeViewController.swift */; };
+		8474FEB021852111001FC196 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8474FEAF21852111001FC196 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F28105E2E7E4A288A4F7F94 /* Pods-FingerMail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerMail.release.xcconfig"; path = "Pods/Target Support Files/Pods-FingerMail/Pods-FingerMail.release.xcconfig"; sourceTree = "<group>"; };
+		4FEEFC908248BFCAED47563A /* Pods-FingerMail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerMail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FingerMail/Pods-FingerMail.debug.xcconfig"; sourceTree = "<group>"; };
+		8474FE9521851FA2001FC196 /* FingerMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8474FE9821851FA2001FC196 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8474FE9D21851FA2001FC196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8474FEA021851FA2001FC196 /* FingerMail.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FingerMail.xcdatamodel; sourceTree = "<group>"; };
+		8474FEA221851FA4001FC196 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8474FEA521851FA4001FC196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8474FEA721851FA4001FC196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8474FEAD21851FC2001FC196 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = ../../Test/FingerMail/FingerMail/WelcomeViewController.swift; sourceTree = "<group>"; };
+		8474FEAF21852111001FC196 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B69536312959AC6C1F859BC0 /* Pods_FingerMail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FingerMail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8474FE9221851FA2001FC196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276E17A15C8990FA49254B72 /* Pods_FingerMail.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8474FE8C21851FA2001FC196 = {
+			isa = PBXGroup;
+			children = (
+				8474FE9721851FA2001FC196 /* FingerMail */,
+				8474FE9621851FA2001FC196 /* Products */,
+				DDC4B8CE43A168629B89FBBF /* Pods */,
+				A7C89B8004442EE653BB4D33 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8474FE9621851FA2001FC196 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8474FE9521851FA2001FC196 /* FingerMail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8474FE9721851FA2001FC196 /* FingerMail */ = {
+			isa = PBXGroup;
+			children = (
+				8474FE9821851FA2001FC196 /* AppDelegate.swift */,
+				8474FEAD21851FC2001FC196 /* WelcomeViewController.swift */,
+				8474FE9C21851FA2001FC196 /* Main.storyboard */,
+				8474FEA221851FA4001FC196 /* Assets.xcassets */,
+				8474FEA421851FA4001FC196 /* LaunchScreen.storyboard */,
+				8474FEA721851FA4001FC196 /* Info.plist */,
+				8474FEAF21852111001FC196 /* GoogleService-Info.plist */,
+				8474FE9F21851FA2001FC196 /* FingerMail.xcdatamodeld */,
+			);
+			path = FingerMail;
+			sourceTree = "<group>";
+		};
+		A7C89B8004442EE653BB4D33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B69536312959AC6C1F859BC0 /* Pods_FingerMail.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDC4B8CE43A168629B89FBBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FEEFC908248BFCAED47563A /* Pods-FingerMail.debug.xcconfig */,
+				2F28105E2E7E4A288A4F7F94 /* Pods-FingerMail.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8474FE9421851FA2001FC196 /* FingerMail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8474FEAA21851FA4001FC196 /* Build configuration list for PBXNativeTarget "FingerMail" */;
+			buildPhases = (
+				A7B5AAB124AFA59869F2D9C7 /* [CP] Check Pods Manifest.lock */,
+				8474FE9121851FA2001FC196 /* Sources */,
+				8474FE9221851FA2001FC196 /* Frameworks */,
+				8474FE9321851FA2001FC196 /* Resources */,
+				9EBEA4FDEF97C0CACBD33039 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FingerMail;
+			productName = FingerMail;
+			productReference = 8474FE9521851FA2001FC196 /* FingerMail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8474FE8D21851FA2001FC196 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Mars Co.";
+				TargetAttributes = {
+					8474FE9421851FA2001FC196 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 8474FE9021851FA2001FC196 /* Build configuration list for PBXProject "FingerMail" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8474FE8C21851FA2001FC196;
+			productRefGroup = 8474FE9621851FA2001FC196 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8474FE9421851FA2001FC196 /* FingerMail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8474FE9321851FA2001FC196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8474FEA621851FA4001FC196 /* LaunchScreen.storyboard in Resources */,
+				8474FEB021852111001FC196 /* GoogleService-Info.plist in Resources */,
+				8474FEA321851FA4001FC196 /* Assets.xcassets in Resources */,
+				8474FE9E21851FA2001FC196 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9EBEA4FDEF97C0CACBD33039 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FingerMail/Pods-FingerMail-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FingerMail/Pods-FingerMail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7B5AAB124AFA59869F2D9C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FingerMail-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8474FE9121851FA2001FC196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8474FEAE21851FC3001FC196 /* WelcomeViewController.swift in Sources */,
+				8474FE9921851FA2001FC196 /* AppDelegate.swift in Sources */,
+				8474FEA121851FA2001FC196 /* FingerMail.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8474FE9C21851FA2001FC196 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8474FE9D21851FA2001FC196 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8474FEA421851FA4001FC196 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8474FEA521851FA4001FC196 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8474FEA821851FA4001FC196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8474FEA921851FA4001FC196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8474FEAB21851FA4001FC196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FEEFC908248BFCAED47563A /* Pods-FingerMail.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GMJLB6HVDB;
+				INFOPLIST_FILE = FingerMail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mars-Co.FingerMail";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8474FEAC21851FA4001FC196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F28105E2E7E4A288A4F7F94 /* Pods-FingerMail.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GMJLB6HVDB;
+				INFOPLIST_FILE = FingerMail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mars-Co.FingerMail";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8474FE9021851FA2001FC196 /* Build configuration list for PBXProject "FingerMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8474FEA821851FA4001FC196 /* Debug */,
+				8474FEA921851FA4001FC196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8474FEAA21851FA4001FC196 /* Build configuration list for PBXNativeTarget "FingerMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8474FEAB21851FA4001FC196 /* Debug */,
+				8474FEAC21851FA4001FC196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8474FE9F21851FA2001FC196 /* FingerMail.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8474FEA021851FA2001FC196 /* FingerMail.xcdatamodel */,
+			);
+			currentVersion = 8474FEA021851FA2001FC196 /* FingerMail.xcdatamodel */;
+			path = FingerMail.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8474FE8D21851FA2001FC196 /* Project object */;
+}
